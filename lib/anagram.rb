@@ -12,8 +12,6 @@ class Anagram
     word_array.each do |word| 
       if word.split("").sort == @word.split("").sort
         true 
-      else 
-        false 
       end   
     end 
   end   
