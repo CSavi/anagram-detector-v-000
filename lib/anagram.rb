@@ -8,8 +8,10 @@ class Anagram
     @word = word 
   end 
   
+  
+ #word_array = ['gallery', 'regally', 'largely', 'inlets']
   def match(word_array)
-    word_array.split("").sort == @word.split("").sort
+    word_array.split(",").sort == @word.split("").sort
       
       
     end 
