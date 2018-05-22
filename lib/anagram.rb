@@ -8,8 +8,9 @@ class Anagram
     @word = word 
   end 
   
-  def match(possible_anagram_array)
-    
+  def match(word_array)
+    word_array.split("")
+    #word_array.each do |word| if word == @word
   end   
   
 end   
